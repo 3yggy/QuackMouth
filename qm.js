@@ -112,7 +112,6 @@ function AppendMan(hat, img, imgName){ //file obj : data URI
     Downloads.appendChild(HatFile);
     Downloads.appendChild(ImgFile);
 
-    
 }
 
 function Clear(){
