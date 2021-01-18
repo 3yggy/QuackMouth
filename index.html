@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QuackMouth</title>
+    <script src='qm.js'></script>
+    <script src="https://cdn.rawgit.com/ricmoo/aes-js/e27b99df/index.js"></script>
+</head>
+<body>
+
+<div class='Centred'>
+    <a href="http://duck-stats.herokuapp.com/stats">Duck Stats</a> |
+     <a href="https://quackdex.herokuapp.com/hats">QuackDex</a> |
+     <a href="https://github.com/3yggy/QuackMouth">Src</a>
+</div>
+<hr>
+<div>
+    <button type="button">
+        <label for="fileInput">
+            Open Hats ( .hat | .png,jpg,jfif,exif,ect )
+        </label>
+    <input id='fileInput' type="file" multiple style="display:none;">
+</div>
+<button class="Clear" onclick="Clear()">Clear</button>
+<div id = 'results'>
+    <img id = 'suck'>
+</div>
+</body>
+</html>
+
+<style>
+
+    .ImgHatPair{
+        outline-color: black;
+    }
+    .Downloads{
+        float:left;
+    }
+    .DownLoadURI{
+        display: block;
+    }
+
+    .Close{
+        float:left;
+        height: 35px;
+        margin-right: 8px;
+    }
+
+    .Clear{
+        margin: 8px;
+    }
+
+</style>
